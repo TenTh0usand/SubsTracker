@@ -2,6 +2,11 @@ name = "subscription-manager"
 main = "src/index.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
+keep_vars = true
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS_KV"
+id = "0b9d671df7254d19ac3bf4b531da1014"
 
 [env.production]
 name = "subscription-manager"
